@@ -2,4 +2,4 @@
 
 ## Schematic
 
-![Schematic](docs/schematic.svg)
+![Schematic](docs/reaction-wheel-bldc-motor-control-pcb.svg)
