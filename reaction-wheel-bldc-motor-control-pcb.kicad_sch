@@ -5,6 +5,228 @@
 	(uuid "c5096c1b-e27c-4190-9cf1-fa68461b3db0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -268,7 +490,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Pin"
+		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -288,8 +510,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -320,7 +542,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -363,7 +585,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_Pin_1_1"
+			(symbol "Conn_01x06_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -411,6 +633,17 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -470,6 +703,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -562,6 +807,230 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7160,6 +7629,18 @@
 		)
 	)
 	(rectangle
+		(start 237.49 125.73)
+		(end 276.86 154.94)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "10eb1dec-dd2f-478e-87e8-e67d468dbf05")
+	)
+	(rectangle
 		(start 74.93 15.24)
 		(end 142.24 129.54)
 		(stroke
@@ -7194,6 +7675,18 @@
 			(type none)
 		)
 		(uuid "2f53de53-ff3f-4438-9464-1005bc06bda8")
+	)
+	(rectangle
+		(start 147.32 175.26)
+		(end 175.26 195.58)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "34235d3e-75e5-42b5-bd6e-772116185dac")
 	)
 	(rectangle
 		(start 16.51 184.15)
@@ -7266,6 +7759,18 @@
 			(type none)
 		)
 		(uuid "b1a4c90a-03a0-42df-8982-59ab4b9fb82d")
+	)
+	(rectangle
+		(start 237.49 100.33)
+		(end 276.86 120.65)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b384f6ce-dbfb-4302-a605-59a12433ea5c")
 	)
 	(rectangle
 		(start 16.51 114.3)
@@ -7375,6 +7880,18 @@
 		)
 		(uuid "2b829195-c46e-4431-8eee-ec10d530b0d7")
 	)
+	(text "SPI1 Headers\n"
+		(exclude_from_sim no)
+		(at 268.732 127.508 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "32923375-ba8c-4d22-89e6-3803c6716a47")
+	)
 	(text "External 16MHz External Crystal Oscillator"
 		(exclude_from_sim no)
 		(at 42.418 85.09 0)
@@ -7386,6 +7903,18 @@
 			)
 		)
 		(uuid "4c2d37d2-7acf-4afc-a680-63f67986c006")
+	)
+	(text "I2C1 Headers\n"
+		(exclude_from_sim no)
+		(at 268.986 102.362 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5368f515-7aaf-4bb9-ad49-e7460f060cf4")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -7422,6 +7951,18 @@
 			)
 		)
 		(uuid "6604cb6b-d216-4a11-9c6a-4dd27ff07e1b")
+	)
+	(text "Battery Screw Terminal"
+		(exclude_from_sim no)
+		(at 161.544 177.292 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7e1ad417-aeb5-4a6b-b2aa-87b357f0f771")
 	)
 	(text "CAN Transceiver"
 		(exclude_from_sim no)
@@ -7754,10 +8295,6 @@
 		(uuid "48f033e9-d8b8-4683-8b17-28ec0f922991")
 	)
 	(no_connect
-		(at 92.71 95.25)
-		(uuid "4caf826e-5d33-4bdc-a52c-034d4e3de492")
-	)
-	(no_connect
 		(at 92.71 69.85)
 		(uuid "4deee9cf-a9ec-4855-a202-310c4f04c53f")
 	)
@@ -7784,14 +8321,6 @@
 	(no_connect
 		(at 102.87 143.51)
 		(uuid "7206731c-0115-4583-be1f-9af32729934a")
-	)
-	(no_connect
-		(at 128.27 77.47)
-		(uuid "72f958b0-1b71-45cc-ab19-a60fd06fe802")
-	)
-	(no_connect
-		(at 92.71 92.71)
-		(uuid "75627e1c-43f3-4306-ad68-cffb54ac022b")
 	)
 	(no_connect
 		(at 102.87 146.05)
@@ -7834,6 +8363,10 @@
 		(uuid "d4df4434-1d82-4e09-a426-7613a0f0f7a6")
 	)
 	(no_connect
+		(at 92.71 92.71)
+		(uuid "d9649bd5-6238-4851-b388-80dc5595fae6")
+	)
+	(no_connect
 		(at 196.85 45.72)
 		(uuid "db00e774-9368-49b2-b936-84b061a4039e")
 	)
@@ -7867,16 +8400,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 173.99) (xy 49.53 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021015a9-3ce2-4a5c-b41a-e98312d7daf7")
-	)
-	(wire
-		(pts
 			(xy 210.82 113.03) (xy 212.09 113.03)
 		)
 		(stroke
@@ -7884,6 +8407,16 @@
 			(type default)
 		)
 		(uuid "0318e0a3-6b50-40c5-abfb-174b129978ee")
+	)
+	(wire
+		(pts
+			(xy 128.27 77.47) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a981d0-3446-4c0f-aaed-a29fc67d32d1")
 	)
 	(wire
 		(pts
@@ -7954,16 +8487,6 @@
 			(type default)
 		)
 		(uuid "0a29de33-15f4-4caf-ab57-96cc377720be")
-	)
-	(wire
-		(pts
-			(xy 40.64 168.91) (xy 49.53 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b371edb-6075-4563-9f61-e47dd24ac069")
 	)
 	(wire
 		(pts
@@ -8434,16 +8957,6 @@
 			(type default)
 		)
 		(uuid "42d7c047-67e7-45bb-9d2c-8ebac3b1cdf8")
-	)
-	(wire
-		(pts
-			(xy 40.64 171.45) (xy 49.53 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a63238-5cda-410f-b613-a66dffc04b08")
 	)
 	(wire
 		(pts
@@ -8977,6 +9490,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 68.58) (xy 231.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6c9d6f-c24b-4042-b211-34414881b3bc")
+	)
+	(wire
+		(pts
 			(xy 184.15 54.61) (xy 184.15 53.34)
 		)
 		(stroke
@@ -9237,6 +9760,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 95.25) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0130a47-9152-45db-8bdf-6d53431b41bf")
+	)
+	(wire
+		(pts
 			(xy 52.07 30.48) (xy 52.07 31.75)
 		)
 		(stroke
@@ -9307,16 +9840,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 166.37) (xy 49.53 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3ddb91-3bda-4ba0-b0b4-46d70aff62cf")
-	)
-	(wire
-		(pts
 			(xy 254 34.29) (xy 254 35.56)
 		)
 		(stroke
@@ -9334,6 +9857,16 @@
 			(type default)
 		)
 		(uuid "cf175ed5-2440-47b0-8dee-5c47c0ecaa53")
+	)
+	(wire
+		(pts
+			(xy 154.94 187.96) (xy 157.48 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c9bffe-e46a-41f5-9f4a-d968d0866e3f")
 	)
 	(wire
 		(pts
@@ -9477,6 +10010,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 110.49) (xy 259.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6742d72-f0ae-422a-bdf1-af28781e9507")
+	)
+	(wire
+		(pts
 			(xy 170.18 132.08) (xy 179.07 132.08)
 		)
 		(stroke
@@ -9517,13 +10060,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 176.53) (xy 49.53 176.53)
+			(xy 260.35 113.03) (xy 259.08 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f02406ce-a674-478c-bc5d-095db06e8796")
+		(uuid "eecf1ddc-79f0-4317-af78-7482067338a1")
 	)
 	(wire
 		(pts
@@ -9604,6 +10147,16 @@
 			(type default)
 		)
 		(uuid "f8aff2f0-8204-4e08-a28f-c3b0fb896616")
+	)
+	(wire
+		(pts
+			(xy 154.94 185.42) (xy 157.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f1916e-2ca4-44e3-aa86-060d799a2d15")
 	)
 	(wire
 		(pts
@@ -9745,6 +10298,16 @@
 		)
 		(uuid "29d61649-fca0-4d7c-af17-2f2179a9cdd1")
 	)
+	(label "I2C1_SDA"
+		(at 260.35 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5cc830-e0c9-4b57-89e7-b8b8b4148c10")
+	)
 	(label "SWDCLK"
 		(at 135.89 74.93 180)
 		(effects
@@ -9785,6 +10348,26 @@
 		)
 		(uuid "44022507-a221-4f5d-9f63-5c6b9c393293")
 	)
+	(label "MOTOR_C"
+		(at 40.64 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bc26f83-8b62-4602-9a75-ec04822ac396")
+	)
+	(label "SPI1_SCK"
+		(at 260.35 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f89906c-104f-493f-8bf9-7fb077d326cb")
+	)
 	(label "USB_D-"
 		(at 137.16 67.31 180)
 		(effects
@@ -9804,6 +10387,16 @@
 			(justify left bottom)
 		)
 		(uuid "521e3907-9719-4a17-9437-abbe702f2e19")
+	)
+	(label "I2C1_SDA"
+		(at 82.55 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "560ebbd5-d9b7-4fab-8fb9-f84731fb3520")
 	)
 	(label "PA1"
 		(at 173.99 111.76 0)
@@ -9826,14 +10419,14 @@
 		(uuid "5c58193b-603b-4b06-b12e-4336d335fff0")
 	)
 	(label "MOTOR_A"
-		(at 49.53 168.91 180)
+		(at 40.64 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "5e4ea973-d87c-4dfd-b765-37034fce8542")
+		(uuid "63329029-db40-4379-ac50-a29d190700cb")
 	)
 	(label "CAN_L"
 		(at 260.35 35.56 180)
@@ -9915,6 +10508,16 @@
 		)
 		(uuid "81bccdd2-eba1-4821-b3f6-076298828a36")
 	)
+	(label "SPI1_MOSI"
+		(at 260.35 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b549194-cc3a-4db7-a7f0-ada82f13ba28")
+	)
 	(label "CAN_H"
 		(at 39.37 124.46 0)
 		(effects
@@ -9975,6 +10578,16 @@
 		)
 		(uuid "9c365ffe-1aeb-46f5-a9a3-9081daa16b38")
 	)
+	(label "SPI1_MISO"
+		(at 260.35 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cca6676-bc9e-490f-82c5-6a561d8ce026")
+	)
 	(label "PA1"
 		(at 133.35 41.91 180)
 		(effects
@@ -10015,6 +10628,16 @@
 		)
 		(uuid "a85d3f69-e78f-4d5e-8be5-bf245557756b")
 	)
+	(label "MOTOR_B"
+		(at 40.64 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1afe685-eff6-4e75-b66f-566eb66e35e5")
+	)
 	(label "HSE_OUT"
 		(at 52.07 91.44 0)
 		(effects
@@ -10025,6 +10648,16 @@
 		)
 		(uuid "b20c93cb-1d38-4f1a-a965-539dc6bd1669")
 	)
+	(label "I2C1_SCL"
+		(at 137.16 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b506b6c9-eb7a-45bb-b4f9-fbd60a4ef956")
+	)
 	(label "CAN_TX"
 		(at 219.71 29.21 0)
 		(effects
@@ -10034,16 +10667,6 @@
 			(justify left bottom)
 		)
 		(uuid "b71bdc56-8ae9-41ac-b385-b9b87a0ca4b6")
-	)
-	(label "MOTOR_C"
-		(at 49.53 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc600da9-7b52-45cf-89e7-bb70f420ca59")
 	)
 	(label "USB_D+"
 		(at 74.93 156.21 180)
@@ -10085,6 +10708,16 @@
 		)
 		(uuid "ceb11171-a026-46cf-a8aa-da7373af43aa")
 	)
+	(label "SPI1_CS"
+		(at 260.35 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d1daa2-4307-4f8a-ac60-1b34d31093f2")
+	)
 	(label "PA10"
 		(at 133.35 64.77 180)
 		(effects
@@ -10105,16 +10738,6 @@
 		)
 		(uuid "d6a48b4b-4b59-46fa-b061-506a40ff7403")
 	)
-	(label "MOTOR_B"
-		(at 49.53 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd2a7030-db0b-4f78-941d-cf4409577786")
-	)
 	(label "SPI1_MISO"
 		(at 138.43 54.61 180)
 		(effects
@@ -10124,6 +10747,16 @@
 			(justify right bottom)
 		)
 		(uuid "e1292558-559a-4140-ad42-1d4c0a87f6c6")
+	)
+	(label "I2C1_SCL"
+		(at 260.35 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3cdcaa7-9e58-4707-ad45-83cff3a3f97d")
 	)
 	(label "PA8"
 		(at 132.08 59.69 180)
@@ -10206,7 +10839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "011955bb-5068-4536-9c0c-3295e1f8c0b9")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 34.29 72.136 0)
 			(hide yes)
 			(show_name no)
@@ -10272,7 +10905,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10289,7 +10922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aeb44a2-6cfe-4c0b-ad65-c6db92080bc1")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 25.4 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,7 +10990,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10374,7 +11007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0def20e6-7b64-4000-80f7-e00528d17485")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR044"
 			(at 218.44 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10435,7 +11068,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR069")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10453,7 +11086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "144d09e8-8a1a-497a-87ef-d7446e8b318f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR033"
 			(at 179.07 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10513,7 +11146,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR066")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10609,7 +11242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "182828d2-73b8-49c1-9e28-88781550b5a6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR012"
 			(at 38.1 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10669,7 +11302,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR020")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10686,7 +11319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a7540fd-1329-4b39-ad22-573652690a65")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR055"
 			(at 275.59 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10747,7 +11380,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR068")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10842,7 +11475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2150adba-a880-49e9-93cc-176a58ef5b88")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 55.88 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10906,7 +11539,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10924,7 +11557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23b6fa1d-ff3e-48b6-b17d-88f759cdde57")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR021"
 			(at 83.82 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10985,7 +11618,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR037")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11002,7 +11635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "263e361a-321e-40f9-ae58-f89781d356ae")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 163.83 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11062,7 +11695,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11079,7 +11712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2788ca40-7799-4bf3-86b9-aa5774284d2f")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 219.71 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11141,7 +11774,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11159,7 +11792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad2ec76-7d9a-4697-9c31-c6878999c778")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR013"
 			(at 43.18 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11220,7 +11853,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR051")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11317,7 +11950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d00aac5-6eb7-4aa9-849e-c8c145601860")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR023"
 			(at 105.41 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11377,7 +12010,89 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR01")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 35.56 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d1792f0-a1bb-4990-babc-620251cd7903")
+		(property "Reference" "J3"
+			(at 27.432 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 26.924 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 35.56 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 35.56 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e54f7960-ec61-4e3b-8d75-dbb238c1a9bb")
+		)
+		(pin "1"
+			(uuid "c169c80a-2005-432c-bf52-8958728de45f")
+		)
+		(pin "3"
+			(uuid "06edecb1-e70f-40db-b696-eb545a2a9f4c")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11472,7 +12187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f5cf126-9866-4ed0-9731-6bedc91f1237")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR01"
 			(at 19.05 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11533,7 +12248,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR047")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11550,7 +12265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "300f31ff-b5cc-4eb5-a17b-d25102657c89")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 35.56 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11610,7 +12325,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11695,6 +12410,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 259.08 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "315146db-7299-42e8-aac8-b433f555399c")
+		(property "Reference" "#PWR049"
+			(at 259.08 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 259.08 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 259.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02d39f22-c8cf-4abe-b7fc-4c6762d8f3d2")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 184.15 24.13 0)
 		(unit 1)
@@ -11705,7 +12498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31884d64-7e8b-4fe0-8ed7-530283bdbe4d")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR034"
 			(at 184.15 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11766,7 +12559,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR065")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11783,7 +12576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ca725b7-f55a-4f32-a3d1-6d49a943f0f8")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 186.69 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11883,7 +12676,162 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "U2")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b17c30-fbe5-40b4-a73e-64481700b5dd")
+		(property "Reference" "#FLG05"
+			(at 231.14 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0695d15-4cae-40fe-80e2-f7d210fe9ac6")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "479b4f0b-9a67-48dc-8c84-765c0460fa6a")
+		(property "Reference" "#PWR050"
+			(at 259.08 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95d7ad2f-ea0a-4ca6-9911-66f276e697a3")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11900,7 +12848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47d29a91-cd4e-45fb-82ec-1fe64f6fcf2c")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 37.084 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11922,7 +12870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
 			(at 34.29 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11964,7 +12912,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11982,7 +12930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a078788-539d-4540-8fd1-82fddb011f06")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 59.69 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12046,7 +12994,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12063,7 +13011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d03c8af-3ab0-4503-b72a-762f0c244868")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR048"
 			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12123,7 +13071,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR038")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -12140,7 +13088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e686390-207c-4e6e-b25a-a2bdcfa625c5")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 265.938 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +13110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 268.732 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -12204,7 +13152,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12221,7 +13169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "509849db-0611-44d1-949b-1eed337272ff")
-		(property "Reference" "C32"
+		(property "Reference" "C21"
 			(at 281.686 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12243,7 +13191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 275.59 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12285,95 +13233,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 35.56 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54440141-dbf1-4bed-95be-ced8f0819ba6")
-		(property "Reference" "J2"
-			(at 26.162 169.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 26.162 171.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 35.56 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f5caceda-c1c7-407a-9d27-1e43d00dada6")
-		)
-		(pin "1"
-			(uuid "0564b3df-9bc4-4bcf-b0c8-25809c6b20f2")
-		)
-		(pin "3"
-			(uuid "0193b20d-d5d4-43f6-ac0e-75762163a20d")
-		)
-		(pin "5"
-			(uuid "c23f391a-d149-46d1-970d-d8c32452e40a")
-		)
-		(pin "4"
-			(uuid "5f6c29bf-57ff-4c47-af62-fc1bfb1219df")
-		)
-		(instances
-			(project "reaction-wheel-bldc-motor-control-pcb"
-				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "J2")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12473,6 +13333,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60f34623-a280-49ad-b578-6828b4c5534a")
+		(property "Reference" "#PWR058"
+			(at 154.94 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.686 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f12e8f0-cd12-4d9f-9115-8cefb6ae9f30")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD231")
 		(at 237.49 31.75 0)
 		(unit 1)
@@ -12484,7 +13421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "646d9d62-fd82-47fa-a543-259b0ff810c4")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 239.6333 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12566,7 +13503,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -12740,7 +13677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bd345de-8df7-438a-b96c-10424cb1b6a5")
-		(property "Reference" "R13"
+		(property "Reference" "R1"
 			(at 100.076 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12760,7 +13697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12846,7 +13783,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "R13")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12943,7 +13880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71985237-407a-4a09-8e9a-257082c710ef")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 27.94 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13007,7 +13944,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13024,7 +13961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71affe3d-228d-4c34-a044-16c592703361")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 25.4 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13092,85 +14029,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 49.53 166.37 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "737c3a9b-2bbf-4418-99db-e207473084d4")
-		(property "Reference" "#PWR057"
-			(at 49.53 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 49.53 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 49.53 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c80aaef-7e8a-4049-a90e-59b1f312a6f3")
-		)
-		(instances
-			(project "reaction-wheel-bldc-motor-control-pcb"
-				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR057")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13188,7 +14047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759548d1-defc-425e-891e-227327fab37a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR041"
 			(at 219.71 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13249,7 +14108,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR044")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13266,7 +14125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76c53232-efdd-41f3-b85e-7e68f8ad9995")
-		(property "Reference" "C31"
+		(property "Reference" "C20"
 			(at 261.366 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13288,7 +14147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.54 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13330,7 +14189,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C31")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13347,7 +14206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77666225-102c-40ec-bf40-6cfdc78adc6f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR054"
 			(at 279.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13407,7 +14266,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR033")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -13424,7 +14283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78cb3f17-6057-430b-92d9-5ca31ddc3b66")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR015"
 			(at 55.88 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13484,7 +14343,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13657,7 +14516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ec37150-b224-466c-bdd7-b2c58d12776c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 167.64 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13717,7 +14576,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13734,7 +14593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83a98b8a-6cb0-40f3-b44b-cec1d67e9e44")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR031"
 			(at 165.1 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13794,7 +14653,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR045")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13812,7 +14671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8578e018-82e1-4aa3-96f3-575b9c6183c6")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR09"
 			(at 38.1 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13872,7 +14731,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR055")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13890,7 +14749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85df356a-8fea-4e41-a377-d6e5fa7e340c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR038"
 			(at 198.12 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13950,7 +14809,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR046")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13968,7 +14827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86f5db48-d98b-462d-b579-65e866659f7d")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 194.8881 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14112,7 +14971,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14129,7 +14988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8946c2f5-f6f6-4fa7-acb9-042af5ef4eb0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR047"
 			(at 237.49 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +15048,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR034")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -14206,7 +15065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89a32eee-d1d5-47ef-a52d-45c61ffd840f")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 166.37 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14228,7 +15087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14270,7 +15129,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C28")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -14367,7 +15226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd3135c-aabd-4ff1-9ebf-cbbeb02c76da")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 112.6333 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14573,7 +15432,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -14590,7 +15449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ddfb0ff-d7dd-4deb-9cd3-247cffdad106")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 129.54 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +15471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 114.3 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -14699,7 +15558,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14718,7 +15577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e2db575-af93-4ed5-8059-e4f5cf8358bd")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR026"
 			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14779,7 +15638,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR036")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14925,7 +15784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.9 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -14984,7 +15843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9265039b-07e7-49d2-85aa-92369c12de30")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 30.48 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15044,84 +15903,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "948a53d8-99c0-4672-af6a-10db26131bff")
-		(property "Reference" "#PWR032"
-			(at 49.53 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 180.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d49fee2e-f753-4071-8825-5b94d5d20a22")
-		)
-		(instances
-			(project "reaction-wheel-bldc-motor-control-pcb"
-				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR032")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15138,7 +15920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96574bef-ffe1-4ce8-9361-f578856cad28")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 215.9 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15160,7 +15942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.63 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -15202,7 +15984,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15219,7 +16001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99e9e630-8599-4560-9f1a-cf0e85b686da")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 182.88 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15279,7 +16061,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15296,7 +16078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a5871cc-a749-4716-90e3-0bcec9515a97")
-		(property "Reference" "C30"
+		(property "Reference" "C19"
 			(at 216.154 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15318,7 +16100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.63 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15360,7 +16142,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C30")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15378,7 +16160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ebe479a-a986-49d3-ade2-669276624f27")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 100.076 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15398,7 +16180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15484,7 +16266,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15502,7 +16284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0b99205-48d6-4795-8b97-b3a77e8aedb9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 101.6 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -15562,7 +16344,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15579,7 +16361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab8bf7e9-4891-4658-946a-4f4c2f349470")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 208.28 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15639,7 +16421,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15656,7 +16438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acd6aa3d-fa73-4b9d-827c-8a232cad3e65")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR046"
 			(at 237.49 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15717,7 +16499,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR067")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15734,7 +16516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad9b05c9-29cc-43c0-bff4-60cd7bb75899")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 270.51 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15802,7 +16584,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15821,7 +16603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af950c89-995a-4b6c-b02b-baec56607d41")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR018"
 			(at 81.28 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15881,7 +16663,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR035")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15898,7 +16680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c3612c-34c0-419f-bc6f-9bb5df22dd26")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR025"
 			(at 115.57 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15958,7 +16740,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR08")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15976,7 +16758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1f33cb9-b1f7-4bba-acb9-13a25dd376b0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 219.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16036,7 +16818,98 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR043")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 255.27 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4e3f3b4-8caa-4cad-aa39-b53a2952c4c6")
+		(property "Reference" "J6"
+			(at 247.65 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 246.888 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 255.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 255.27 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6a97113b-7e87-4efd-9542-605b01b61d1e")
+		)
+		(pin "3"
+			(uuid "da277b3e-2382-4fa1-9bfb-d4b86dae4698")
+		)
+		(pin "2"
+			(uuid "71c4148d-10fb-4135-9d63-e5e047b7e79c")
+		)
+		(pin "1"
+			(uuid "a6b7e916-7142-47e6-80a0-a8a23bf4cddf")
+		)
+		(pin "5"
+			(uuid "7ba830d2-c562-43f3-bcc8-e44316b26b8f")
+		)
+		(pin "6"
+			(uuid "437ee8fe-c9ea-4845-bbb7-541da2c05c43")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -16053,7 +16926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5de11bc-af8f-42ab-b177-20eadffe66aa")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 219.71 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16115,7 +16988,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16153,7 +17026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16212,7 +17085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b90e917f-c215-4b12-b33d-5140d0ce2075")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 25.4 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16276,7 +17149,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16293,7 +17166,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba18d2a5-30a6-4de0-a9b8-9c1c7b93edc9")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 37.846 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16355,7 +17228,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16372,7 +17245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd728ae7-d7c2-4aad-8916-6f52bc41232a")
-		(property "Reference" "C35"
+		(property "Reference" "C18"
 			(at 177.546 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16394,7 +17267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.15 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16436,7 +17309,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C35")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16534,7 +17407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c52d0ebc-e538-405a-91f2-2ca861423180")
-		(property "Reference" "C34"
+		(property "Reference" "C16"
 			(at 173.99 162.814 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16556,7 +17429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.72 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16598,7 +17471,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C34")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -16615,7 +17488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c86ea375-8b67-454b-86dd-3612959126d1")
-		(property "Reference" "C13"
+		(property "Reference" "C3"
 			(at 24.13 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16679,7 +17552,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C13")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -16697,7 +17570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce6badf5-6cff-4fd9-a06e-2dd3a9f35251")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR011"
 			(at 38.1 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16757,7 +17630,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR056")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16774,7 +17647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceb87e56-7c15-420e-b7f1-de1e6bd4a70d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16834,7 +17707,88 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR039")
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 162.56 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d044dc12-47e3-466e-a9d1-c7c47ac34bd5")
+		(property "Reference" "MT1"
+			(at 162.56 182.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal"
+			(at 157.48 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 162.56 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e26e8278-c814-425a-855b-14d0a98aa137")
+		)
+		(pin "1"
+			(uuid "15252a57-3d84-4d9e-b417-13b86c932ed1")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "MT1")
 					(unit 1)
 				)
 			)
@@ -16851,7 +17805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1431aa4-efd6-42db-8928-82ebe8bed2ea")
-		(property "Reference" "C33"
+		(property "Reference" "C15"
 			(at 173.99 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16873,7 +17827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.72 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16915,7 +17869,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C33")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16933,7 +17887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ce24f2-1459-4f60-a2b3-f87612489ef6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 156.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16993,7 +17947,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17010,7 +17964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1e28cac-d3f5-40da-8c9e-cce3559e38d9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 38.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -17070,7 +18024,84 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR019")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3cfca47-01c2-487e-a933-a8d00a6fb166")
+		(property "Reference" "#PWR052"
+			(at 260.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 152.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "934406f8-c394-4b68-814e-1677508c78c9")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -17165,7 +18196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc5e69a2-870d-4051-bbf3-49cf7e858c02")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 83.058 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17266,7 +18297,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17283,7 +18314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc9aa141-2ca1-4b6f-a3ab-ea31339a3cec")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 158.75 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17343,7 +18374,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17360,7 +18391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de6c9baa-c39a-464e-a39e-4b586920caf5")
-		(property "Reference" "C29"
+		(property "Reference" "C17"
 			(at 172.72 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17382,7 +18413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.99 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -17424,7 +18455,92 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C29")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 254 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de894066-db76-499f-8f9f-e97bc0321243")
+		(property "Reference" "J5"
+			(at 246.38 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 245.872 111.252 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "beabbe94-d1a0-4080-83cb-abbccf7add52")
+		)
+		(pin "3"
+			(uuid "961f057f-54f0-4eb4-b8ce-61a367faf9db")
+		)
+		(pin "1"
+			(uuid "00463b63-b6c0-47ce-bf3b-bb1666336601")
+		)
+		(pin "2"
+			(uuid "13db381d-d747-458d-872f-611f55a94d8e")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -17442,7 +18558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14cde81-4f95-4b36-b716-6f5fd0ff231c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR016"
 			(at 66.04 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17503,7 +18619,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR052")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17520,7 +18636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2200d0d-2aa9-40b7-88d1-059da7500435")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 90.17 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17580,7 +18696,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17597,7 +18713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4bf8751-c0be-438a-b15b-1c2778d06726")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 65.024 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17661,7 +18777,85 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C7")
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 154.94 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4c9efa8-79f5-4325-ab5b-3c750112ea65")
+		(property "Reference" "#PWR057"
+			(at 154.94 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 154.94 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 154.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d5cb5e5-7d47-47f0-862e-7e489119f917")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17746,6 +18940,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 260.35 135.89 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e754adf9-f504-4e05-beec-48da8b339782")
+		(property "Reference" "#PWR051"
+			(at 260.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 260.35 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 260.35 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96f7324c-879c-4590-ab30-0895a86a73e8")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 270.51 86.36 0)
 		(unit 1)
@@ -17756,7 +19028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e91849bf-11e8-4de7-b3ac-118ca3b5ee56")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 266.192 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17778,7 +19050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 268.732 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -17820,7 +19092,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17837,7 +19109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebfaa2b8-f286-496c-bb1e-c19d50990c42")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR053"
 			(at 270.51 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17897,7 +19169,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR041")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17914,7 +19186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede511a2-6773-4fd2-93cf-ddcc55e39c1e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR056"
 			(at 275.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17974,7 +19246,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR042")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17991,7 +19263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edf8f316-6faa-4a5b-af34-060cf510c7ae")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR06"
 			(at 22.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18051,7 +19323,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR013")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -18068,7 +19340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeb0df5a-97d9-486c-8dd6-bb0236689183")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR043"
 			(at 217.17 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -18129,7 +19401,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR070")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -18146,7 +19418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0415b02-df77-420e-928d-bcccf6ff70b1")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 54.864 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18210,7 +19482,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -18228,7 +19500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f242a94d-d39a-49da-8efa-42c09d97b19f")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 39.37 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18292,7 +19564,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18309,7 +19581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2ae5351-a267-44f2-9694-9da7db6151b5")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 44.704 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18373,7 +19645,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -18391,7 +19663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f474b542-f8ab-418a-b07b-017d22f4bd37")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR017"
 			(at 81.28 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18451,7 +19723,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR030")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18469,7 +19741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f523802b-a24b-4b2e-afbf-b91dc3b73860")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR019"
 			(at 88.9 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -18530,7 +19802,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR053")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18547,7 +19819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5e429ab-48f1-4540-b02e-c2213e65a70d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR037"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18607,7 +19879,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR026")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18624,7 +19896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f74f53fb-4bd6-4cd3-acfa-fec3aa48a279")
-		(property "Reference" "C27"
+		(property "Reference" "C13"
 			(at 155.702 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18646,7 +19918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.75 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18688,7 +19960,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C27")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18705,7 +19977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9f8f687-42da-4df5-87c8-db82aba16c2f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR040"
 			(at 214.63 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -18766,7 +20038,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR071")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18784,7 +20056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc4f67e8-647e-4472-9a0c-7acb6478b708")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR014"
 			(at 55.88 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -18844,7 +20116,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR05")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18861,7 +20133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fde7d247-101b-4b5b-a997-6f60a9b03935")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR035"
 			(at 184.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18921,7 +20193,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR021")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18938,7 +20210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdf03cef-dfb9-4f39-93d2-56d52dd7e94b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR024"
 			(at 110.49 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18998,7 +20270,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR014")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -19015,7 +20287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff18814f-e9a6-4ddb-80b2-8ff77ee24998")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR05"
 			(at 22.86 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19075,7 +20347,7 @@
 		(instances
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "#PWR012")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
