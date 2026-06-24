@@ -8049,12 +8049,6 @@
 		(uuid "066e7549-b446-4c82-ad44-4fab52b66d18")
 	)
 	(junction
-		(at 30.48 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1235cd3f-aa4e-442b-860b-ec31f8e9b3d1")
-	)
-	(junction
 		(at 31.75 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8071,12 +8065,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d6e3707-0dc4-4e37-b824-318c8b10b4c6")
-	)
-	(junction
-		(at 38.1 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2063f420-6e86-4156-91f4-3daaf1ae0405")
 	)
 	(junction
 		(at 24.13 44.45)
@@ -17150,85 +17138,6 @@
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 34.29 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba18d2a5-30a6-4de0-a9b8-9c1c7b93edc9")
-		(property "Reference" "C6"
-			(at 37.846 72.898 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 34.798 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 38.1 73.9648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 34.29 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f0b0a1e-2952-4a70-8610-563a92c6aa32")
-		)
-		(pin "2"
-			(uuid "af0ab6fd-4f05-4e33-92a6-3372703d2105")
-		)
-		(instances
-			(project "reaction-wheel-bldc-motor-control-pcb"
-				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
-					(reference "C6")
 					(unit 1)
 				)
 			)
