@@ -8,7 +8,6 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 |---|---|
 | **MCU** | STM32G431CBUx (Cortex-M4F, QFN-48) |
 | **Gate driver** | DRV8311H three-phase BLDC driver |
-| **Position sensing** | AS5047D magnetic rotary encoder |
 | **Communication** | CAN (SN65HVD231) + USB 2.0 (USB-C) |
 | **Power input** | USB-C 5 V and screw-terminal motor supply |
 | **Layers** | 2-layer copper (F.Cu / B.Cu) |
