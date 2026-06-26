@@ -1,5 +1,20 @@
 # Reaction Wheel BLDC Motor Control PCB
 
+A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
+
+### Board at a glance
+
+| | |
+|---|---|
+| **MCU** | STM32G431CBUx (Cortex-M4F, QFN-48) |
+| **Gate driver** | DRV8311H three-phase BLDC driver |
+| **Position sensing** | AS5047D magnetic rotary encoder |
+| **Communication** | CAN (SN65HVD231) + USB 2.0 (USB-C) |
+| **Power input** | USB-C 5 V and screw-terminal motor supply |
+| **Layers** | 2-layer copper (F.Cu / B.Cu) |
+| **Outline** | ~49 × 49 mm, four corner mounting holes (H1–H4) |
+| **Designed with** | KiCad 10 |
+
 ## Schematic
 
 ![Schematic](docs/reaction-wheel-bldc-motor-control-pcb.svg)
