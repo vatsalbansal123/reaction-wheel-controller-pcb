@@ -22,3 +22,6 @@ _autosave-*
 # OS files
 .DS_Store
 Thumbs.db
+
+# BOM files
+/bom.csv

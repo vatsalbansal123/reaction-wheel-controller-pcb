@@ -11,7 +11,7 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 | **Communication** | CAN (SN65HVD231) + USB 2.0 (USB-C) |
 | **Power input** | USB-C 5 V and screw-terminal motor supply |
 | **Layers** | 2-layer copper (F.Cu / B.Cu) |
-| **Outline** | ~49 × 49 mm, four corner mounting holes (H1–H4) |
+| **Outline** | ~48.6 × 49.5 mm, rounded corners (R2.5), four M2 corner mounting holes (H1–H4) |
 | **Designed with** | KiCad 10 |
 
 ## Schematic
@@ -20,9 +20,9 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 
 ## PCB
 
-![PCB top view](docs/pcb-top.png)
-
-
+| Top | Bottom |
+|-----|--------|
+| ![PCB top view](docs/pcb-top.png) | ![PCB bottom view](docs/pcb-bottom.png) |
 
 ## Key Components
 
