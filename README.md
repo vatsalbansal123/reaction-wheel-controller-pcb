@@ -6,7 +6,7 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 
 | | |
 |---|---|
-| **MCU** | STM32G431CBUx (Cortex-M4F, QFN-48) |
+| **MCU** | STM32G431CBTx (Cortex-M4F, LQFP-48) |
 | **Gate driver** | DRV8311H three-phase BLDC driver |
 | **Communication** | CAN (SN65HVD231) + USB 2.0 (USB-C) |
 | **Power input** | USB-C 5 V and screw-terminal motor supply |
@@ -28,7 +28,7 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 
 | Reference | Part | Function |
 |-----------|------|----------|
-| U2 | STM32G431CBUx | Cortex-M4 motor-control MCU (QFN-48) |
+| U2 | STM32G431CBTx | Cortex-M4 motor-control MCU (LQFP-48) |
 | U4 | DRV8311H | Three-phase BLDC gate driver / motor driver |
 | U3 | AS5047D | Magnetic rotary position (angle) sensor |
 | U5 | SN65HVD231 | CAN transceiver |
@@ -43,14 +43,16 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 
 - **J4** — USB-C (USB 2.0 + power)
 - **MT1** — 2-pin screw terminal (motor phases / power)
-- **J1, J2, J5** — 1x4 pin headers
+- **J1** — 1x4 header, CAN (CAN_H / CAN_L)
+- **J5** — 1x4 header, I²C (SDA / SCL)
+- **J2** — 1x4 header, SWD debug (CLK / IO)
+- **J6** — 1x6 header, SPI (CS / SCK / MISO / MOSI)
 - **J3** — 1x3 pin header
-- **J6** — 1x6 pin header
 - **SW1** — SPST tactile button
 
 ### Passives & Discretes
 
-- **Capacitors:** 10n, 10p, 100n, 0.1u, 1u, 4.7u, 10u, 22u (0402 / 0603 SMD)
+- **Capacitors:** 10n, 10p, 100n, 0.1u, 1u, 4.7u, 10u, 22u (0805 SMD)
 - **Inductors:** 2.2u (0402), 120R ferrite bead (FB1)
 - **Resistors:** 5k1, 10k, 30.1k, 100k (0402 / 0603 SMD)
 - **Diodes:** SS34 Schottky (D1, D2)
