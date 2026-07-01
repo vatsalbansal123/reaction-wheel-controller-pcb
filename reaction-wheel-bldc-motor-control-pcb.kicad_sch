@@ -8297,6 +8297,10 @@
 		(uuid "cb3e3a34-d1f4-4b23-8130-1a9b77f1a415")
 	)
 	(no_connect
+		(at 198.12 121.92)
+		(uuid "ccca7062-526b-4452-a88c-73bf9d65f164")
+	)
+	(no_connect
 		(at 87.63 80.01)
 		(uuid "d05ef26a-27b3-4829-bb3c-ba5c312b7040")
 	)
@@ -8698,6 +8702,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 120.65) (xy 204.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fccb026-632b-4342-91f6-3df74665bf8e")
+	)
+	(wire
+		(pts
 			(xy 39.37 127) (xy 38.1 127)
 		)
 		(stroke
@@ -8705,6 +8719,16 @@
 			(type default)
 		)
 		(uuid "333e04de-3f4a-4e9d-a2f1-252962f207e6")
+	)
+	(wire
+		(pts
+			(xy 204.47 120.65) (xy 204.47 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34eed8cc-4dbe-4796-a890-e39337c54914")
 	)
 	(wire
 		(pts
@@ -9158,6 +9182,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767cf0c5-b6fc-41be-8858-4dfd3417f45a")
+	)
+	(wire
+		(pts
 			(xy 52.07 22.86) (xy 62.23 22.86)
 		)
 		(stroke
@@ -9465,6 +9499,16 @@
 			(type default)
 		)
 		(uuid "a3260aee-ba1d-4445-a0e3-9813386cdaa6")
+	)
+	(wire
+		(pts
+			(xy 204.47 119.38) (xy 198.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a45451-211a-4990-b332-0e84421ab37c")
 	)
 	(wire
 		(pts
@@ -13218,6 +13262,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 210.82 120.65 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5423ae5f-1fff-4ace-974e-63176f4a58e8")
+		(property "Reference" "R7"
+			(at 209.55 118.364 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 208.534 122.936 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.82 122.428 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a88e3353-5adf-467f-8f48-482ce56ae638")
+		)
+		(pin "1"
+			(uuid "9fc4feae-5a79-47f2-863d-26dbf992a29f")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS562200")
 		(at 242.57 72.39 0)
 		(unit 1)
@@ -16578,6 +16704,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b119d9db-f200-43a1-b22d-07a89ef8b018")
+		(property "Reference" "#PWR060"
+			(at 220.98 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.456 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca1deba7-09da-4b8d-abe7-9bd886aeaa84")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 215.9 73.66 90)
 		(mirror x)
@@ -18591,6 +18794,83 @@
 			(project "reaction-wheel-bldc-motor-control-pcb"
 				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 200.66 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1031763-9daf-4e42-8224-25a7fd3917fa")
+		(property "Reference" "#PWR059"
+			(at 200.66 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 200.406 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11d09de2-0a82-428e-ae85-6fcd97812852")
+		)
+		(instances
+			(project "reaction-wheel-bldc-motor-control-pcb"
+				(path "/c5096c1b-e27c-4190-9cf1-fa68461b3db0"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)

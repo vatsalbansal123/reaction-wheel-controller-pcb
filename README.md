@@ -54,7 +54,7 @@ A compact, single-board controller for a brushless DC (BLDC) reaction wheel.
 
 - **Capacitors:** 10n, 10p, 100n, 0.1u, 1u, 4.7u, 10u, 22u (0805 SMD)
 - **Inductors:** 2.2u (0402), 120R ferrite bead (FB1)
-- **Resistors:** 5k1, 10k, 30.1k, 100k (0402 / 0603 SMD)
+- **Resistors:** 5k1, 10k, 30.1k, 47k, 100k (0402 / 0603 SMD)
 - **Diodes:** SS34 Schottky (D1, D2)
 
 > A full bill of materials can be regenerated from the schematic with:
